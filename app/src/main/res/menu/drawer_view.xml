@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_a"
+            android:icon="@mipmap/ic_launcher"
+            android:title="GitHub"/>
+    </group>
+
+    <item android:title="Blog">
+        <menu>
+            <item
+                android:id="@+id/menu_b"
+                android:icon="@mipmap/ic_launcher"
+                android:title="博客CSDN"/>
+        </menu>
+    </item>
+
+</menu>
